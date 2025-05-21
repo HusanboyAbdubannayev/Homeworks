@@ -1,0 +1,124 @@
+let x = 5 + "5"; /	/ javob: "55", chunki "5" ni raqamga aylantirish o'rniga, u stringga o'zgartiriladi
+
+let num = Number("123"); // 123
+let notanumber = Number("abc"); // NaN
+
+let num = 123;
+let str = num.toString(); // "123"
+
+let boolean = true;
+let number = Number(boolean); // 1
+
+let boolean = false;
+let str = String(boolean); // "false"
+
+let result = 0 / 0; // NaN
+NaN (Not-a-Number)
+
+2. Operators (Operatorlar)
+JavaScript’da operatorlar – bu ma'lumotlarni o'zaro bog'lash uchun ishlatiladigan maxsus belgilar. Operatorlar bir nechta turga bo'linadi.
+  2.1. Arithmetic Operators (Aritmetik Operatorlar)
+   Bu operatorlar raqamlar ustida arifmetik amallarni bajaradi.
+     + (Qo‘shish):
+        let sum = 10 + 5; // 15
+        
+     - (Ayirish):
+        let diff = 10 - 5; // 5
+
+     * (Ko'paytirish):
+        let product = 10 * 5; // 50
+
+     / (Bo'lish):
+        let quotient = 10 / 2; // 5
+   
+     % (Qoldiq):
+        let remainder = 10 % 3; // 1
+
+     ** (Daraja):
+        
+ 
+  2.2. Assignment Operators (Vazifa Berish Operatorlari)
+   Bu operatorlar o'zgaruvchilarga qiymat tayinlash uchun ishlatiladi.
+
+     =:
+        let x = 10; // x ga 10 qiymatini beradi
+  
+    +=:
+        x += 5; // x = x + 5
+    (-=, *=, /=va hokazo, boshqa arifmetik operatsiyalarni ham bajaradi.)
+    
+  2.3. Comparison Operators (Solishtirish Operatorlari)
+   Bu operatorlar ikkita qiymatni taqqoslaydi va natijada true yoki false qaytaradi.
+   
+    == (Teng):
+        5 == '5'; // true (tipga qarashmasdan)
+
+    === (Teng, tipni ham taqqoslash):
+        5 === '5'; // false (tiplar farq qiladi)
+
+   (! =) (Teng emas):
+        5 ! = 6; // true
+         ! == (Teng emas, tipni ham taqqoslash):
+         5 ! == '5'; // true
+
+(>, <, >=, <= (Kattalik yoki kichiklik))
+
+   2.4. Logical Operators (Mantiqiy Operatorlar)
+    Bu operatorlar mantiqiy xulosa chiqarishda ishlatiladi.
+
+     && (Mantiqiy “va” – AND):
+         true && false; // false
+
+     || (Mantiqiy “yoki” – OR):
+         true || false; // true
+
+     ! (Mantiqiy “inkor” – NOT):
+         !true; // false
+
+  2.5. Unary Operators (Bir o'zgaruvchili Operatorlar)
+   ++ (1 qo'shish):
+      let x = 5;
+       x++; // x = 6
+
+   -- (Qisqacha ayirish:
+      let x = 5;
+       x--; // x = 4
+
+   typeof (Tipni tekshirish):
+      let x = 5;
+      typeof x; // "number"
+
+ 3. Logical Operations (Mantiqiy Amallar)
+  3.1. Mantiqiy O'zgartirishlar
+Mantiqiy amallar (logical operations) asosan ikki yoki undan ortiq shartning to'g'ri yoki noto'g'ri ekanligini tekshirishda ishlatiladi.
+
+&& (AND): Ikki shartning ham to'g'ri bo'lishi kerak.
+     let a = true;
+     let b = false;
+     console.log(a && b); // false
+
+   || (OR): Agar birorta shart to'g'ri bo'lsa, natija to'g'ri bo'ladi.
+     let a = true;
+     let b = false;
+     console.log(a || b); // true
+
+   ! (NOT): Aksincha shartni inkor qilish.
+     let a = true;
+     console.log(!a); // false
+  3.2. Truthy va Falsy Qiymatlar
+   JavaScript’da ba'zi qiymatlar falsy deb hisoblanadi, ya'ni ular falsega ekvivalent. Boshqa qiymatlar esa truthy bo'lib, ular har doim truega tengdir.
+
+Falsy qiymatlar:
+
+false
+
+0
+
+"" (bo'sh satr)
+
+null
+
+undefined
+
+NaN
+
