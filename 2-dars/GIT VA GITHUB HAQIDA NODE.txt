@@ -1,0 +1,93 @@
+                                                                     GIT VA GITHUB HAQIDA NODE 
+
+🧠 1. Git nima?
+
+   ==> Git — bu versiyalarni boshqarish tizimi (Version Control System).
+
+   ==> Dasturchilar kodning tarixini saqlash, orqaga qaytish, versiyalarni solishtirish uchun Git'dan foydalanishadi.
+
+   ==> Git Commandalar orqali terminalda ishlaydi.
+
+☁️ 2. GitHub nima?
+
+   ==> GitHub — bu Git bilan ishlovchi fayllarni saqlash va onlayn ulashish uchun platforma.
+
+   ==> GitHub - bu bulutdagi Git repozitoriy, ya’ni repositoryni internetda saqlash joyi.
+
+   ==> Git orqali yaratilgan fayllarni GitHubga joylash — hamkorlikda ishlashni osonlashtiradi.
+   
+📂 3. Git va GitHub bilan ishlash uchun dastlabki sozlashlar
+
+   ==> 1. Git dasturini o‘rnatish:
+     ==>https://git-scm.com dan Git ni yuklab olib o‘rnating.
+
+   ==> 2. Gitni ilk marta sozlash:
+   
+      ==>git config --global user.name "Ismingiz"
+      
+      ==>git config --global user.email "email@example.com"
+      
+   Bu commandalar sizni Git uchun ro‘yxatdan o‘tkazadi.
+
+🔧 4. Yangi Git repository yaratish
+
+      ==> cd my-project         # papkaga kirish
+      
+      ==> git init              # git repozitoriy yaratish
+
+📝 5. Fayllarni qo‘shish va commit qilish
+
+      ==>git add .             # barcha fayllarni kuzatuvga olish
+
+      ==> git commit -m "Birinchi commit"    # o‘zgarishlarga izoh bilan saqlash
+     
+🌐 6. GitHub'da repository yaratish
+
+      ==> GitHub.com ga kiring.
+
+      ==> "New repository" tugmasini bosing.
+
+      ==> Repository nomini yozing (masalan: my-project).
+
+      ==> Create repository tugmasini bosing.
+
+🔗 7. Mahalliy (local) Git loyihani GitHub bilan bog‘lash
+
+     ==> git remote add origin https://github.com/username/my-project.git
+
+🔄 Endi loyihani GitHubga push qilish:
+
+     ==> git push -u origin master
+
+Agar main bo‘lsa:
+
+     ==> git push -u origin main
+
+🔄 8. Eng ko‘p ishlatiladigan Git komandalar
+
+Command Ma’nolari
+
+    ==> git init	              # Yangi Git repository yaratadi
+    ==> git add .	              # Barcha fayllarni kuzatuvga oladi
+    ==> git commit -m "izoh"          # O‘zgarishlarni saqlaydi
+    ==> git remote -v	              # Ulangan GitHub repolarini ko‘rsatadi
+    ==> git push	              # O‘zgarishlarni GitHubga yuboradi
+    ==> git pull	              # GitHubdan o‘zgarishlarni yuklab oladi
+    ==> git clone     	              # GitHub'dan loyihani yuklab olish
+    ==> git branch	              # Branchlar ro‘yxati
+    ==> git checkout branch-nomi      # Branchga o‘tish
+
+9.githubga file yuklash
+
+1.GitHub saytiga kirib, "Sign Up" tugmasini bosing.
+
+2.Email manzilingizni kiritib, parolni o‘rnatib, akkaunt yaratish jarayonini yakunlang.
+ 
+git init
+git add ./myfile.txt
+git commit -m "izoh"
+git remote -v 
+git push origin main/master
+
+
+
