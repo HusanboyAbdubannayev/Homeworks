@@ -1,0 +1,47 @@
+— JavaScript nima?
+— Nodejs nima uchun kerak?
+— JavaScript code'ni necha hil usulda ishlatib(compile) ko'rsak bo'ladi?
+
+==> java script bu odam bolsa html skaletini yasach uchn css dizaynini yasash uchn java script esa harakatlantirish uchn yani funksiyanal qismini yasash uchn kk
+==> nodejs bu biz alohida brovserda natijani kormasligimiz uchn i vaqtni tejash uchn kk terminalda biz bergan malumotlarni yurgizib korish uchn
+==>  (
+      terminalda node js orqali
+      online sayt orqali (js compiler)
+      web browserda console orqali 
+      )
+ 
+— Single threaad nima?
+— Reserved keyword nima?
+— var let const larning bir biridan farqi nimada?
+— Global variable nima?	
+
+==> bir vaqtni ozida bitta ish bajarish
+==> reserved keyword bu band qilingan kywordla ula bilan ozgaruvchi yaratbomidi misol:(if , else , in , funcsion)
+==> var bilan let bir xil tarafi ikalasi ham ozgaruvchan ozgaruvchi yaratish uchn ishlatiladi bir biridan farqi var js 5 versiyasida yoq edi 6 versiyasidan qoshigan 
+==> const bu ozgarmas ozgaruvchi bolib var a letdan asosiy farqi ozgarmasligida
+==> global ozgaruvchi bu bir ozgaruvchini boshqa js fileda ham ishlata olshdir
+
+
+— Data Types nima?
+— Number misollar bilan tushuntirib bring.
+— Bigint misollar bilan tushuntirib bring..
+— String misollar bilan tushuntirib bring..
+— Boolean misollar bilan tushuntirib bring.
+— Null misollar bilan tushuntirib bring.
+— Undefined misollar bilan tushuntirib bring.
+— Symbols misollar bilan tushuntirib bring.
+— Objects misollar bilan tushuntirib bring.
+— Arrays misollar bilan tushuntirib bring.
+— Functions misollar bilan tushuntirib bring.
+
+==> malumot turlari
+==> bu raqam turi console.log(1)
+==> katta raqamlarni hisoblash uchn console.log(9007199254740991+10) 
+==> string bu matn turi console.log("hello")
+==> bu js dan savol sorash uchn ishlatiladi true and false console.log(true)
+==> null bu bosh qiymat 
+==> undifined bu umuman yoq narsa qiymat
+==> symbol bu id yaratish uch
+==> object bu kimdur haqida malumot
+==> array bu yuk mashinaga ohshash umumiy malumot 
+==> function bu funcsiya yaratish uchn

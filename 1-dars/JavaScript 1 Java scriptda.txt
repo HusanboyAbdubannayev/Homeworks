@@ -1,0 +1,104 @@
+                                                                             JavaScript
+1.Java scriptda file ochish 
+  ==> index.js
+  
+2.node.js ornatish
+  ==> https://nodejs.org/en/download
+  ==> avvalgi nomi Ecmascript edi hozir javascriptga ozgartirilgan
+	
+3.console.log
+  ==> console.log("Salom, JavaScript!");
+
+4.java scriptda console.logga kiritilgan malumotni 3 xil holoatda ko'rish
+  ==> terminalda node js orqali
+  ==> online sayt orqali (js compiler)
+  ==> web browserda console orqali
+  
+5.java script fileni html filega ulash
+  ==> <script src=""></script>
+  
+6.html fileda tag orqali js yozish
+  ==> <script></script>
+
+7.CAMMENT
+  ==> // orqali kammentga olinadi kammentga olish izoh qoldirish uchn kk
+  
+8.Nuqta Velgur
+  ==> ; bu qator tugaganini yani code yopilganini bildiradi
+
+9.Variable
+  ==> JavaScriptda o'zgaruvchilarni 3 xil usulda e'lon qilish mumkin (var, let, const)
+  ==> var one = "lorem";     <==> o'zgartirish munkin
+  ==> let two = "lorem";     <==> o'zgartirish mumkin
+  ==> let a = (b = c = 10) ; shu korinishda yozsa boladiozgaruvchini bitta valuega tenglab qoysa boladi
+  ==> const three = "lorem"; <==> o'zgarmas
+  ==> var bu Ekmascript 5 ta bor edi let esa ecmascript 6 dan qoshilgan
+
+  ==> letni console.log()dan keyin yaratibomadi error beradi yaratilmagan ozgaruvchini chaqirib bolmaydi
+      ==> console.log(y); // ReferenceError (let)
+          let y = 5;
+  ==> varda esa var yaratilmasidan oldin console.log()da chaqirilsa error emas undefined b eradi
+      ==> console.log(x); // undefined (var)
+          var x = 5;
+  ==> error tushunchasi ozi nima deyiladigan bolsa error bu hatolik
+  ==> Global ozgaruvchi - polny faylda foydalaniladigan o'zgaruvchi
+  ==> Single Thread - JavaScript bir vaqtning o'zida faqat bitta ishni bajaradi.
+      ==> console.log("1");
+      ==> console.log("2");
+      ==> console.log("3");
+  ==> Reserved keyword bu band qilingan keywordla misol:(let , var , const , funcsion , in , if , else)
+      ==> let let = 5; bunday qilish notogri boladi chunki let reserved keyword.
+
+10.Data types
+  ==> JavaScriptda ikki xil data type bor (Primitive va Non-Primitive)
+      ==> Primitive 
+         |==> let number = 42;                                 <==> Number   
+             |--> let a = 0; console.log(Number.MAX_SAFE_INTEGER); eng katta sonni aniqlaberadi bu sondan balantida hisob kitob natogri bld  (9007199254740991)
+             |--> let a = 0; console.log(Number.MIN_SAFE_INTEGER); eng kichik sonni aniqlaberadi bu sondan kichikida hisob kitob natogri bld  (-9007199254740991)
+         |==> let bigInt = 12345678901234567890n;              <==> BigInt (big intda katta sonlani hisoblash uchn ishlatiladi faqat ohiriga n qoshib qoyiladi) 
+         |==> let String = "Webbrain"/'Webbrain'`'Webbrain'`;  <==> String |==>  console.log(`s + ${"logo"}`); bu dollor belgisi malumotni qoshiberadi
+         |==> let boolen = true/false;                         <==> Boolean
+         |==> let NULL = null;                                 <==> Null 
+         |==> let undefined;                                   <==> Undefined
+         |==> let symbol = Symbol("id");                       <==> Symbol
+
+
+  ==> typeof orqali ularning turini aniqlash mumkin
+     ==> console.log(typeof number);       <==> number
+     ==> console.log(typeof bigInt);       <==> bigint
+     ==> console.log(typeof String);       <==> string
+     ==> console.log(typeof boolen);       <==> boolean
+     ==> console.log(typeof NULL);         <==> object 
+     ==> console.log(typeof undefined);    <==> undefined
+     ==> console.log(typeof symbol);       <==> symbol
+
+  ==> Non-Primitive turlarga quyidagilar kiradi:
+      let user = {
+         name: "Ali",
+         age: 25
+      }; ==> bu Object
+
+      let fruits = ["olma", "banan", "anor"]; ==> bu Array
+
+      function greet() {
+         return "Salom";
+       } ==> bu Function
+
+==> console.log(user);           |==> (Object)ni ko'rsatadi
+==> console.log(fruits);         |==> (Array)ni chiqaradi
+==> console.log(greet("Diyor")); |==> (Salom) chiqadi
+
+==> console.log(alert("salom")); 
+   ==> endi alert degan tushuncha bor bu browserga kirganda tepada chiqadigan eslatma
+ 
+==> console.log(prompt("LOREM"));
+   ==> Bu tushuncha esa browserga kirganda tepada inputga ohshagan narsa chiqarberadi nimadur toldirish uchn
+   
+   
+   
+   
+   
+   Homework
+==>1.hello 1 
+==>2.hello name
+==>3.hello Ilya

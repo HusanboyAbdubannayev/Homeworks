@@ -1,0 +1,53 @@
+console.log()bu consoleda corsatish uchn ishlatiladi
+ozgaruvchilar
+============
+let bu ozgaruvchan ozgaruvchi ecmascrip 6 da chiqqan 
+============
+var bu eski ozgaruvchi ecmascrip 5 da chiqqan
+============
+const bu ozgarmas ozgaruvchi constanta deyiladi
+============
+ozgaruvchilada 3 alasini bir biridan farqi bu let ozgaruvchan yangi ozgaruvchi 
+============
+var bu eski ozgaruvchan hotiradan joy egalab turadigan ozgaruvchi
+============
+const esa constanta degani bolib ozgarmas degan manoda yaratigan ozgaruvchini ozgartirbomadi
+============
+ozgaruvchi bola turib unga qiymat berilmagan bolsa undefiend chiqadi
+============
+ozgaruvchi yaratilmagan bolsa uni console.log da chaqirsa text is not defined errorda chiqadi
+============
+ozgaruvchilarni bir xil nom bilan 3 4 ta yaratomimiz
+============
+singlethread bu bir donadan malumot oqib ketish
+============
+primitive non primitiv degan narsala bor
+============ 
+      ==> Primitive 
+         |==> let number = 42;                                 <==> Number   
+             |--> let a = 0; console.log(Number.MAX_SAFE_INTEGER); eng katta sonni aniqlaberadi bu sondan balantida hisob kitob natogri bld  (9007199254740991)
+             |--> let a = 0; console.log(Number.MIN_SAFE_INTEGER); eng kichik sonni aniqlaberadi bu sondan kichikida hisob kitob natogri bld  (-9007199254740991)
+         |==> let bigInt = 12345678901234567890n;              <==> BigInt (big intda katta sonlani hisoblash uchn ishlatiladi faqat ohiriga n qoshib qoyiladi) 
+         |==> let String = "Webbrain"/'Webbrain'`'Webbrain'`;  <==> String |==>  console.log(`s + ${"logo"}`); bu dollor belgisi malumotni qoshiberadi
+         |==> let boolen = true/false;                         <==> Boolean
+         |==> let NULL = null;                                 <==> Null 
+         |==> let undefined;                                   <==> Undefined
+         |==> let symbol = Symbol("id");                       <==> Symbol
+============
+  ==> Non-Primitive turlarga quyidagilar kiradi:
+      let user = {
+         name: "Ali",
+         age: 25
+      }; ==> bu Object
+
+      let fruits = ["olma", "banan", "anor"]; ==> bu Array
+
+      function greet() {
+         return "Salom";
+       } ==> bu Function
+ bizda alrt degan narsa bor bu browserda eslatma chiqarish uchun ishlatiladi
+ ===========
+ bizda promt degan narsa bor bu esa inoutga ohshab ichiga malumot toldiradigan chiqarberadi
+
+  
+ 
